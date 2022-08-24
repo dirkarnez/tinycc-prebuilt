@@ -1,6 +1,5 @@
 export PATH="/D/Softwares/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64:\
 /D/Softwares/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:\
-/D/Softwares/cmake-3.23.0-rc1-windows-x86_64/bin:\
 /D/Softwares/PortableGit-2.35.1.2-64-bit/bin:\
 /mingw64/bin:\
 /usr/local/bin:\
@@ -16,6 +15,3 @@ git checkout $TAG  && \
 ./configure --prefix="$(pwd)/tinycc-installation" && \
 mingw32-make &&
 mingw32-make install
-
-# mingw32-make &&^
-# pause
